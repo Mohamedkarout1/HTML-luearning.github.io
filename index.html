@@ -6,7 +6,7 @@
 
         <title>Splash Page, Learning HTML</title>
 
-        <meta name="author" content="Mohamed karout">
+        <meta name="author" content="Mark Mercer">
         <meta name="description" content="First Webpage Learning HTML by building simple website">
         <meta name="keywords" content="boilerplate starter code HTML learning">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,13 +23,18 @@
         <!-- meta http-equiv="content-type" content="text/html; charset=UTF-8" -->
         <!-- Already specified in the charset above-->
 
+        <style>
+            //divHeader {border: thin dotted blue;}
+            div {border: thin dotted rgb(0, 255, 4);}
+        </style>
+
         <noscript>Running JavaScript is not necessary in the HTML Page ... FYI: your Feature to execute scripts is turned off</noscript>
 
     </head>
     
     <body>
-        <header><h1 style="font-size:5.5vw">Learning HTML</h1></header>
-        <nav>
+        <header><div><divHeader><h1 style="font-size:5.5vw">Learning HTML</h1></divHeader></div></header>
+        <nav><div>
             <header style="font-size:3vw">Navigation</header>
             <section>
                 <header style="font-size:2vw">Various Pages</header>
@@ -44,20 +49,22 @@
                     <li> What this index page might look like with Flexbox: <a href="childPages/Flexbox.html" target="_blank">click here</a>
                 </ul>
             </section>
-        </nav>
+        </div></nav>
         <aside></aside>
         <main>
-            <h1 style="font-size:3vw">
+            <div>
+                <h1 style="font-size:3vw">
                 Use the main-section-article sections to 
                 summarize the lessons learned in the links.
-            </h1>
+                </h1>
+            </div>
         </main>
         <section></section>
         <article></article>
         <footer></footer>
     </body>
 
-    <footer>
+    <div><footer>
         <blockquote cite="https://www.brainyquote.com/quotes/mitch_kapor_163583">
             <!-- Date Accessed 20220919 -->
         </blockquote>
@@ -69,6 +76,6 @@
                 Mitch Kapor</a>
             </em>
         </p>
-        <p>&copy Mohamed karout ,</p>
-    </footer>
+        <p>&copy Mohamed Karout</p>
+    </footer></div>
 </html>
