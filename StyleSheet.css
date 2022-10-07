@@ -1,0 +1,45 @@
+header {
+    border: 1px solid white;
+    padding: 15px;
+}
+
+body {
+    border: 1px solid white;
+    background-image: url(https://cutewallpaper.org/27/black-and-red-galaxy-wallpaper/1896216165.jpg);
+}
+
+nav {
+    border: 1px solid white;
+}
+
+menu {
+    width: 25%;
+    border: 1px solid white;
+}
+
+main {
+    width: 50%;
+    border: 1px solid white;
+}
+
+section {
+    border: 1px solid white;
+}
+
+aside {
+    width: 25%;
+    border: 1px solid white;
+}
+
+article {
+    border: 1px solid white;
+}
+
+footer {
+
+}
+
+div {
+    border: 1px solid white;
+    padding: 15px;
+}
